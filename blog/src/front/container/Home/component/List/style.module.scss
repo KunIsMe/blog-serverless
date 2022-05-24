@@ -1,0 +1,47 @@
+.list {
+    margin: 0;
+    padding: 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    .item {
+        width: 20%;
+        margin-top: 10px;
+        .link {
+            color: #333;
+            text-decoration: none;
+            .img {
+                display: block;
+                width: 240px;
+                height: 140px;
+                margin: 0 auto;
+                border-radius: 10px;
+            }
+            .title {
+                margin: 0;
+                padding: 0 10px;
+                line-height: 32px;
+                font-size: 16px;
+                font-weight: normal;
+                // 单行显示省略号
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .desc {
+                margin: 0;
+                padding: 0 10px;
+                line-height: 24px;
+                font-size: 14px;
+                font-weight: normal;
+                color: #777;
+                // 多行显示省略号
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 4;
+            }
+        }
+    }
+}

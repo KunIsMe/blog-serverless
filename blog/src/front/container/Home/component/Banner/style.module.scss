@@ -1,0 +1,49 @@
+.banner {
+    position: relative;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    .person {
+        display: flex;
+        height: 150px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #FFF;
+        .avatar {
+            position: relative;
+            top: -70px;
+            margin-left: 40px;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        .content {
+            flex: 1;
+            .title {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                height: 50px;
+                margin-left: 40px;
+                margin-top: 10px;
+                line-height: 50px;
+                font-size: 28px;
+                color: #000;
+            }
+            .description {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                height: 64px;
+                margin-left: 40px;
+                margin-right: 40px;
+                line-height: 32px;
+                font-size: 18px;
+                color: #333;
+            }
+        }
+    }
+}

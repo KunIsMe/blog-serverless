@@ -1,0 +1,9 @@
+service:
+  name: blog-server
+
+provider:
+  name: aliyun
+
+custom:
+  customDomain:
+    domainName: auto

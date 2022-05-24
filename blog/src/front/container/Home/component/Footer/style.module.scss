@@ -1,0 +1,23 @@
+.footer {
+    background-color: #FFF;
+    padding: 10px;
+    .list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 10px;
+        .item {
+            line-height: 28px;
+            font-size: 14px;
+            .link {
+                text-decoration: none;
+                color: #545C63;
+            }
+        }
+    }
+    .copyright {
+        margin-left: 10px;
+        line-height: 24px;
+        font-size: 12px;
+        color: #93999F;
+    }
+}
